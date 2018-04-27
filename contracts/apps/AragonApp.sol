@@ -30,4 +30,12 @@ contract AragonApp is AppStorage, Initializable, ACLSyntaxSugar, EVMScriptRunner
         }
         return address(kernel) == 0 || kernel.hasPermission(_sender, address(this), _role, how);
     }
+
+    function getAuthorized(address _sender, bytes32 _role) public view returns (uint) {
+        if (address(kernel) == 0) {
+            return 0;
+        } else {
+            return kernel.numAuthorized(_sender, address(this), _role);
+        }
+    }
 }

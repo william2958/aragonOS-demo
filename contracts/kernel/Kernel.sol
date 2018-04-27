@@ -92,6 +92,10 @@ contract Kernel is IKernel, KernelStorage, Initializable, AppProxyFactory, ACLSy
         return acl().hasPermission(_who, _where, _what, _how);
     }
 
+    function numAuthorized(address _who, address _where, bytes32 _what) public view returns (uint256) {
+        return acl().numAuthorized(_who, _where, _what);
+    }
+
     function _setApp(bytes32 _namespace, bytes32 _name, address _app) internal returns (bytes32 id) {
         require(isContract(_app));
         id = keccak256(_namespace, _name);
