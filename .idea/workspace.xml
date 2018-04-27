@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e319bc4-7a9a-4605-9566-93e26daa0674" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/contracts/custom_apps/Democracy.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/acl/ACL.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/acl/ACL.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/acl/IACL.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/acl/IACL.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/apps/AragonApp.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/apps/AragonApp.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/kernel/IKernel.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/kernel/IKernel.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/kernel/Kernel.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/kernel/Kernel.sol" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,22 +16,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5917826">
+    <splitter split-orientation="horizontal" split-proportion="0.5937707">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Democracy.sol" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/contracts/custom_apps/Democracy.sol">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="394">
-                  <caret line="110" column="34" lean-forward="true" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
+                <state relative-caret-position="280">
+                  <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AragonApp.sol" pinned="false" current-in-tab="true">
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="260">
+                  <caret line="13" selection-start-line="13" selection-end-line="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AragonApp.sol" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/contracts/apps/AragonApp.sol">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="471">
+                <state relative-caret-position="438">
                   <caret line="39" selection-start-line="39" selection-end-line="39" />
                 </state>
               </provider>
@@ -55,7 +59,7 @@
             <entry file="file://$PROJECT_DIR$/contracts/acl/ACL.sol">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="521">
-                  <caret line="258" column="23" lean-forward="true" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+                  <caret line="258" column="28" selection-start-line="258" selection-start-column="28" selection-end-line="258" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -82,25 +86,25 @@
             <entry file="file://$PROJECT_DIR$/test/custom_tests/calculator.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="260">
-                  <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+                  <caret line="13" selection-start-line="13" selection-end-line="13" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ACL.sol" pinned="false" current-in-tab="false">
+          <file leaf-file-name="ACL.sol" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/contracts/acl/ACL.sol">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="224" column="5" lean-forward="true" selection-start-line="224" selection-start-column="5" selection-end-line="224" selection-end-column="5" />
+                <state relative-caret-position="203">
+                  <caret line="222" column="26" selection-start-line="222" selection-start-column="13" selection-end-line="222" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="IACL.sol" pinned="false" current-in-tab="true">
+          <file leaf-file-name="IACL.sol" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/contracts/acl/IACL.sol">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="140">
-                  <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+                <state relative-caret-position="160">
+                  <caret line="8" selection-start-line="8" selection-end-line="8" />
                 </state>
               </provider>
             </entry>
@@ -124,8 +128,9 @@
       <find>_createPermission</find>
       <find>auth</find>
       <find>auth(</find>
-      <find>_newVote</find>
       <find>hasPermission</find>
+      <find>numAuthorized</find>
+      <find>_newVote</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/contracts</dir>
@@ -142,12 +147,13 @@
         <option value="$PROJECT_DIR$/test/custom_tests/voting.js" />
         <option value="$PROJECT_DIR$/contracts/custom_apps/Calculator.sol" />
         <option value="$PROJECT_DIR$/test/custom_tests/calculator.js" />
-        <option value="$PROJECT_DIR$/contracts/custom_apps/Democracy.sol" />
         <option value="$PROJECT_DIR$/contracts/acl/IACL.sol" />
         <option value="$PROJECT_DIR$/contracts/kernel/IKernel.sol" />
         <option value="$PROJECT_DIR$/contracts/kernel/Kernel.sol" />
-        <option value="$PROJECT_DIR$/contracts/acl/ACL.sol" />
         <option value="$PROJECT_DIR$/contracts/apps/AragonApp.sol" />
+        <option value="$PROJECT_DIR$/contracts/acl/ACL.sol" />
+        <option value="$PROJECT_DIR$/contracts/custom_apps/Democracy.sol" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -309,18 +315,18 @@
       <workItem from="1524149170287" duration="150000" />
       <workItem from="1524149339360" duration="5574000" />
       <workItem from="1524240929910" duration="2885000" />
-      <workItem from="1524832784672" duration="3067000" />
+      <workItem from="1524832784672" duration="3434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11676000" />
+    <option name="totallyTimeSpent" value="12043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09041591" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09041591" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -329,7 +335,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40205127" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40205127" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -537,14 +543,7 @@
     <entry file="file://$PROJECT_DIR$/test/custom_tests/calculator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/custom_apps/Democracy.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="110" column="34" lean-forward="true" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -552,20 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="26" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/acl/ACL.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="258" column="23" lean-forward="true" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/acl/IACL.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -578,8 +563,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contracts/apps/AragonApp.sol">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
+        <state relative-caret-position="438">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/acl/IACL.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/acl/ACL.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="258" column="28" selection-start-line="258" selection-start-column="28" selection-end-line="258" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/custom_apps/Democracy.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
